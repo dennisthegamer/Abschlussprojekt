@@ -1,0 +1,202 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  /* gap: 1px 1px; */
+  grid-template-areas:
+    "welcom welcom welcom welcom welcom welcom welcom welcom welcom"
+    "ver ver ver news news slide slide slide slide"
+    "ver ver ver news news slide slide slide slide"
+    "ver ver ver news news slide slide slide slide"
+    "pic pic pic  news news slide slide slide slide"
+    "pic pic pic news news slide slide slide slide"
+    "pic pic pic news news tel post post post"
+    "botom botom botom botom botom botom botom botom botom";
+  gap: 25px;
+}
+
+.welcom {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1px 1px;
+  grid-template-areas: "wel time wether" "wel time wether";
+  grid-area: welcom;
+  /* background-color: #64d932; */
+  background-color: #222522;
+  /* height: 350px; */
+}
+
+.botom {
+  grid-area: botom;
+  /* background-color: #64d932; */
+  background-color: #222522;
+  font-size: 50px;
+}
+
+.wel {
+  grid-area: wel;
+  color: white;
+  font-size: 45px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.time {
+  grid-area: time;
+  font-size: 75px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.wether {
+  grid-area: wether;
+}
+
+.ver {
+  grid-area: ver;
+  background-color: darkgray;
+}
+
+.pic {
+  grid-area: pic;
+  background-color: darkgray;
+}
+
+#blume {
+  width: 100%;
+  height: 100%;
+}
+
+.news {
+  grid-area: news;
+  background-color: darkgray;
+}
+
+.h1_board {
+  text-align: center;
+  font-size: 40px;
+}
+
+.slide {
+  grid-area: slide;
+  background-color: darkgray;
+}
+
+.tel {
+  grid-area: tel;
+  background-color: darkgray;
+}
+
+.post {
+  grid-area: post;
+  background-color: darkgray;
+}
+
+#komp {
+  background-color: #222522;
+}
+
+#slider {
+  overflow: hidden;
+}
+
+#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 20s slider infinite;
+}
+
+#slider figure img {
+  width: 20%;
+  float: left;
+}
+
+@keyframes slider {
+  0% {
+    left: 0;
+  }
+  20% {
+    left: 0;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
+}
+
+.verfront td,
+.verfront th {
+  border: 1px solid #ddd;
+  padding: 10px;
+  font-size: 35px;
+  width: 20%;
+  border: none;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+#namevera {
+  text-align: center;
+  font-size: 40px;
+}
+
+.weather-icon {
+  vertical-align: middle;
+  margin-right: 20px;
+}
+
+.weather-forecast {
+  color: #212121;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 20px 0px;
+  color: white;
+  text-align: center;
+  font-size: 45px;
+}
+
+span.min-temp {
+  margin-left: 15px;
+  columns: #929292;
+}
+
+.time_wetter {
+  line-height: 25px;
+  grid-area: time;
+  font-size: 75px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.wetterlwa {
+  font-size: 45px;
+}
+
+.posttab th,
+.posttab td {
+  font-size: 45px;
+  padding: 5px;
+}

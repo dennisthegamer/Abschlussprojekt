@@ -1,0 +1,232 @@
+/* Body: hier wird das Hintergrundbild so an die Website angepasst, dass das Bild immer voll da ist. */
+body {
+  background: url(../pics/) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+}
+
+/* navleiste: sorgt dafür das die Navigatiosleiste seine Gestallt annimmt. */
+#navleiste {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 19%;
+  height: 100%;
+  background-color: gray;
+  overflow: auto;
+  position: fixed;
+}
+
+#imglogo {
+  border-radius: 50%;
+  width: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+/* navlinks a: ist dafür da das die Links in der Navigationsleiste seine Gestallt annehmen */
+.navlinks a {
+  display: block;
+  background-color: gray;
+  color: white;
+  text-decoration: none;
+  padding: 14px 16px;
+  text-align: center;
+}
+
+/* eingabefeld: sorgt dafür das die Eingabefelder einheitlich aussehen. */
+.eingabefeld {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* icon: Icon sezt die Atribute für die Icons. */
+.icon {
+  padding: 10px;
+  background: gray;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+/* eingabefeld-text: wie der name schon sagt sorgt das für die größe. */
+.eingabefeld-text {
+  width: 25%;
+  padding: 8px;
+  outline: none;
+}
+
+/* btn: dieser setzt den style für die buttons. */
+.btn {
+  background-color: gray;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+  opacity: 0.9;
+}
+
+.btnver {
+  background-color: gray;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 31.5%;
+  opacity: 0.9;
+}
+
+#navleistea {
+  position: relative;
+}
+
+.grob {
+  margin-left: 21%;
+  display: grid;
+}
+
+#login {
+  margin-top: 15%;
+}
+
+.hanm {
+  text-align: center;
+}
+
+.ver {
+  display: block;
+}
+
+#hz {
+  font-size: 75px;
+  color: white;
+}
+#ww {
+  background-color: #33cc33;
+}
+
+#wt {
+  margin-left: 20px;
+}
+
+#aussendiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.innendiv {
+  width: 50px;
+}
+
+#backgr {
+  background-color: gray;
+}
+
+#slid {
+  margin-left: 60%;
+  margin-right: 3%;
+  height: 65%;
+}
+
+#veran {
+  margin-left: 10%;
+  margin-right: 55%;
+  height: 30%;
+}
+table {
+  width: 98%;
+  text-align: left;
+  border: 1px solid #dddddd;
+  font-size: 15px;
+  color: #000;
+  background: #fff;
+  margin-bottom: 10px;
+}
+
+table th {
+  background-color: #e5e5e5;
+  border: 1px solid #bbbbbb;
+  padding: 3px 6px;
+  color: #000;
+}
+table tr td {
+  border: 1px solid #dddddd;
+  padding: 5px 6px;
+}
+
+label {
+  font-size: 35px;
+}
+
+select {
+  width: 200px;
+  height: 25px;
+  background-color: gray;
+  opacity: 0.9;
+}
+
+#post {
+  background-color: gray;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  width: 31.5%;
+  opacity: 0.9;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* eingabefeld-text-login: wie der name schon sagt sorgt das für die größe. */
+.eingabefeld-text-login {
+  width: 75%;
+  padding: 10px;
+  outline: none;
+}
+
+/* btn: dieser setzt den style für den button auf der login page. */
+.btn-login {
+  background-color: gray;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 75%;
+  opacity: 0.9;
+  margin-left: 10%;
+}
+
+#vervfron td, #verfront th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#blumestart {
+  width: 80%;
+  border: black 3px solid;
+  border-radius: 80%;
+}
+
+#bildmittig {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
