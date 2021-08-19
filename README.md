@@ -1,3 +1,5 @@
+## Projekt wurde unter PHP Version 7.4.7 entwickelt. Nicht funktionell unter PHP 8!
+
 # IHK - Abschlussprojekt FIAE 2020
 
 ## Projektbeschreibung
@@ -57,5 +59,5 @@ Um sich das Projekt am ende anschauen zu können benötigen sie 2 Webbrowser.
 ## Wichtig Zoomen sie raus das board wurde für ein bestimmten Monitor entwickelt, ist deshalb zu groß um am Heimrechner zu nutzen!
 #### Angaben bezüglich Auftragsgeber sind fiktiv!  
 
-## Projekt wurde unter PHP Version 7.4.7 entwickelt. Nicht funktionell unter PHP 8!
+
 
